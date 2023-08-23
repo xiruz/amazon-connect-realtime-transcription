@@ -557,7 +557,7 @@ Resources:
         Amazon Connect Contact Flow.
       Handler: "kvs_trigger.handler"
       Role: !GetAtt KvsTriggerRole.Arn
-      Runtime: "nodejs12.x"
+      Runtime: "nodejs18.x"
       MemorySize: 128
       Timeout: 30
       Environment:
